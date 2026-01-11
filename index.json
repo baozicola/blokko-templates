@@ -16,9 +16,7 @@
     "desc": "复古Win95模板",
     "url": "data/win95.json",
     "preview": "previews/win95.png"
-  }
-],
-[
+  },
   {
     "id": "karura",
     "name": "樱花",
@@ -27,4 +25,5 @@
     "desc": "粉色样式",
     "url": "data/yinghua.json",
     "preview": "previews/yinghua.png"
-  },
+  }
+]
