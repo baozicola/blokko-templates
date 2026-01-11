@@ -1,0 +1,255 @@
+{
+  "version": "2.6.6",
+  "ui": {
+    "activeInspectorTab": "system",
+    "activeLayerTab": "items"
+  },
+  "systemSettings": {
+    "exportFilePrefix": "Blokko",
+    "masonryEnabled": true,
+    "previewGap": 20,
+    "htmlModeEnabled": false,
+    "inspectorOpacity": 1
+  },
+  "globalTheme": {
+    "primary": "#ec4899",
+    "accent": "#ec4899",
+    "background": "#fff0f5",
+    "text": "#831843"
+  },
+  "customIcons": [],
+  "personalInfo": {},
+  "pageStyles": {
+    "pageBgMode": "gradient",
+    "pageBgSolidColor": "#f0f2f5",
+    "pageBgImageDataUrl": null,
+    "pageBgRepeat": "no-repeat",
+    "pageBgSize": "cover",
+    "pageBgImageAttribution": null,
+    "pageBgGradientStart": "#fff0f5",
+    "pageBgGradientEnd": "#ffe4e6",
+    "pageBgGradientAngle": 135,
+    "pageOverlayColor": "#000000",
+    "pageOverlayOpacity": 0.3,
+    "pageBgPattern": "Polka Dots",
+    "pageBgPatternColor": "#ec4899",
+    "pageBgPatternOpacity": 0.1,
+    "pageBgPatternDensity": 30,
+    "headerBgMode": "solid",
+    "headerBorderRadius": 16,
+    "headerBgColor": "#ffffff",
+    "headerTextColor": "#be185d",
+    "headerOpacity": 1,
+    "headerBgGradientStart": "#ffffff",
+    "headerBgGradientEnd": "#f7f7f7",
+    "headerBgGradientAngle": 135
+  },
+  "globalBorderSettings": {
+    "style": "dashed",
+    "width": 2,
+    "color": "#fbcfe8",
+    "shadowOffset": 4,
+    "shadowColor": "#000000",
+    "applyTo": {
+      "profile": true,
+      "card": false,
+      "image": true,
+      "button": false,
+      "music": false,
+      "timeline": false,
+      "showcase": false,
+      "rpg": false,
+      "dialogue": false,
+      "progress": false,
+      "social": false,
+      "grid": false,
+      "todo": false,
+      "calendar": false,
+      "qa": false,
+      "achievement": false,
+      "letter": false,
+      "marquee": false,
+      "ranking": false
+    },
+    "globalShadowSettings": {
+      "color": "#ec4899",
+      "opacity": 0.1,
+      "offsetX": 0,
+      "offsetY": 8,
+      "blur": 16,
+      "applyTo": {
+        "profile": true,
+        "card": true,
+        "image": true,
+        "button": true,
+        "music": true,
+        "timeline": true,
+        "showcase": true,
+        "rpg": false,
+        "dialogue": false,
+        "progress": false,
+        "social": true,
+        "grid": false,
+        "todo": false,
+        "calendar": false,
+        "qa": false,
+        "achievement": false,
+        "letter": false,
+        "marquee": false,
+        "ranking": false
+      }
+    }
+  },
+  "items": [
+    {
+      "id": "tpl_sakura_profile",
+      "type": "profile",
+      "isVisible": true,
+      "layout": {
+        "width": 100
+      },
+      "styleVariant": "social-card",
+      "bannerBgMode": "gradient",
+      "bannerBgGradStart": "#fbcfe8",
+      "bannerBgGradEnd": "#f9a8d4",
+      "socialBottomShape": "concave",
+      "nickname": "Sakura_Chan",
+      "subtitle": "🌸 占位 🌸",
+      "bio": "占位 ( ੭ ˙ᗜ˙ )੭",
+      "nicknameColor": "#db2777",
+      "avatar": "",
+      "avatarShape": "50%",
+      "avatarBorderSize": 4,
+      "avatarBorderColor": "#ffffff",
+      "tags": [
+        {
+          "id": "t1",
+          "text": "占位",
+          "icon": "mdi:emoticon-happy-outline"
+        },
+        {
+          "id": "t2",
+          "text": "占位",
+          "icon": "mdi:brush"
+        }
+      ],
+      "tagBgColor": "#fce7f3",
+      "tagTextColor": "#db2777"
+    },
+    {
+      "id": "c-1768096476359-51r0hutv1",
+      "type": "card",
+      "isVisible": true,
+      "title": "占位",
+      "content": "<p>占位符一二三</p>",
+      "sticker": "none",
+      "imageFillMode": "cover",
+      "layout": {
+        "width": "67"
+      },
+      "writingMode": "horizontal-tb",
+      "textAlign": null
+    },
+    {
+      "id": "c-1768096495964-52m4y9qdg",
+      "type": "card",
+      "isVisible": true,
+      "title": "占位",
+      "content": "<p>占位符四五六</p>",
+      "sticker": "none",
+      "imageFillMode": "cover",
+      "layout": {
+        "width": "33"
+      },
+      "writingMode": "horizontal-tb",
+      "textAlign": null
+    },
+    {
+      "id": "tpl_sakura_grid",
+      "type": "grid",
+      "isVisible": true,
+      "layout": {
+        "width": 100
+      },
+      "title": "✨ 占位 ✨",
+      "styleVariant": "polaroid",
+      "columns": 3,
+      "aspectRatio": "1/1",
+      "items": [
+        {
+          "id": "g1",
+          "image": "",
+          "text": "占位"
+        },
+        {
+          "id": "g2",
+          "image": "",
+          "text": "占位"
+        },
+        {
+          "id": "g3",
+          "image": "",
+          "text": "占位"
+        }
+      ],
+      "textColor": "#db2777"
+    },
+    {
+      "id": "tpl_sakura_dialogue",
+      "type": "dialogue",
+      "isVisible": true,
+      "layout": {
+        "width": 100
+      },
+      "title": "碎碎念",
+      "dialogueMode": "group",
+      "cards": [
+        {
+          "id": "c1",
+          "speaker": "占位文本",
+          "alignment": "right",
+          "text": "占位文本",
+          "bgColor": "#fce7f3",
+          "textColor": "#831843"
+        },
+        {
+          "id": "c2",
+          "speaker": "占位文本",
+          "alignment": "left",
+          "text": "占位文本",
+          "bgColor": "#ffffff"
+        }
+      ]
+    }
+  ],
+  "stickers": [],
+  "globalComponentStyles": {
+    "bgMode": "solid",
+    "bgColor": "#ffffff",
+    "textColor": "#881337",
+    "opacity": 0.8,
+    "bgGradientStart": "#ffffff",
+    "bgGradientEnd": "#f5f5f5",
+    "bgGradientAngle": 135,
+    "radius": 24,
+    "textAlign": "center",
+    "lineHeight": "1.5",
+    "padding": 15,
+    "fontFamily": "ZCOOL XiaoWei",
+    "titleColor": null,
+    "titleFontSize": "1.1em",
+    "contentFontSize": "0.95em",
+    "textStrokeWidth": 0,
+    "textStrokeColor": "#000000"
+  },
+  "exportSettings": {
+    "lockAspectRatio": true,
+    "customWidth": 1200,
+    "customHeight": 750
+  },
+  "workspaceMeta": {
+    "name": "Template_Sakura",
+    "exportedAt": 1768096635666,
+    "version": "2.6.6"
+  }
+}
