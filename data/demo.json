@@ -1,0 +1,216 @@
+{
+  "version": "2.6.6",
+  "ui": {
+    "activeInspectorTab": "system",
+    "activeLayerTab": "items"
+  },
+  "systemSettings": {
+    "exportFilePrefix": "Blokko",
+    "masonryEnabled": true,
+    "previewGap": 20,
+    "htmlModeEnabled": false,
+    "inspectorOpacity": 1
+  },
+  "globalTheme": {
+    "primary": "#007AFF",
+    "accent": "#007AFF",
+    "background": "#FFFFFF",
+    "text": "#1a1a1a"
+  },
+  "customIcons": [],
+  "personalInfo": {},
+  "pageStyles": {
+    "pageBgMode": "solid",
+    "pageBgSolidColor": "#f0f2f5",
+    "pageBgImageDataUrl": null,
+    "pageBgRepeat": "no-repeat",
+    "pageBgSize": "cover",
+    "pageBgImageAttribution": null,
+    "pageBgGradientStart": "#f0f2f5",
+    "pageBgGradientEnd": "#e6e9ed",
+    "pageBgGradientAngle": 135,
+    "pageOverlayColor": "#000000",
+    "pageOverlayOpacity": 0.3,
+    "pageBgPattern": "",
+    "pageBgPatternColor": "#000000",
+    "pageBgPatternOpacity": 0.1,
+    "pageBgPatternDensity": 30,
+    "headerBgMode": "solid",
+    "headerBorderRadius": 16,
+    "headerBgColor": "#ffffff",
+    "headerTextColor": "#1a1a1a",
+    "headerOpacity": 1,
+    "headerBgGradientStart": "#ffffff",
+    "headerBgGradientEnd": "#f7f7f7",
+    "headerBgGradientAngle": 135
+  },
+  "globalBorderSettings": {
+    "style": "solid",
+    "width": 1,
+    "color": "#e0e0e0",
+    "shadowOffset": 4,
+    "shadowColor": "#000000",
+    "applyTo": {
+      "profile": false,
+      "card": false,
+      "image": false,
+      "button": false,
+      "music": false,
+      "timeline": false,
+      "showcase": false,
+      "rpg": false,
+      "dialogue": false,
+      "progress": false,
+      "social": false,
+      "grid": false,
+      "todo": false,
+      "calendar": false,
+      "qa": false,
+      "achievement": false,
+      "letter": false,
+      "marquee": false,
+      "ranking": false
+    },
+    "globalShadowSettings": {
+      "color": "#000000",
+      "opacity": 0.08,
+      "offsetX": 0,
+      "offsetY": 6,
+      "blur": 14,
+      "applyTo": {
+        "profile": true,
+        "card": true,
+        "image": true,
+        "button": true,
+        "music": true,
+        "timeline": true,
+        "showcase": true,
+        "rpg": false,
+        "dialogue": false,
+        "progress": false,
+        "social": true,
+        "grid": false,
+        "todo": false,
+        "calendar": false,
+        "qa": false,
+        "achievement": false,
+        "letter": false,
+        "marquee": false,
+        "ranking": false
+      }
+    }
+  },
+  "items": [
+    {
+      "id": "profile-1768094224407-2vt9mnoxg",
+      "type": "profile",
+      "isVisible": true,
+      "layout": {
+        "width": 100
+      },
+      "styleVariant": "default",
+      "nickname": "新角色",
+      "nicknameColor": "#1a1a1a",
+      "subtitle": "角色介绍 / 副标题",
+      "subtitleColor": "#555555",
+      "bio": "这里是简介内容...",
+      "bioColor": "#555555",
+      "avatar": "",
+      "avatarShape": "50%",
+      "avatarSize": 100,
+      "avatarBorderColor": null,
+      "statusBadge": "none",
+      "statusBadgeEmoji": "🟢",
+      "tags": [
+        {
+          "text": "标签1",
+          "icon": null
+        },
+        {
+          "text": "标签2",
+          "icon": null
+        }
+      ],
+      "tagBgColor": "#eef1f5",
+      "tagTextColor": "#3c3c43",
+      "bgColor": null,
+      "textColor": null
+    },
+    {
+      "id": "c-1768094224407-98uucfih2",
+      "type": "card",
+      "isVisible": true,
+      "title": "这是卡片模块",
+      "content": "双击这里或手机端点击铅笔进行编辑，现在支持富文本了哦！期待大家返图！",
+      "sticker": "none",
+      "imageFillMode": "cover",
+      "layout": {
+        "width": 100
+      },
+      "writingMode": "horizontal-tb",
+      "textAlign": null
+    },
+    {
+      "id": "c-1768094224407-g5mmtbeh5",
+      "type": "card",
+      "isVisible": true,
+      "title": "这是卡片模块",
+      "content": "双击这里或手机端点击铅笔进行编辑，现在支持富文本了哦！期待大家返图！",
+      "sticker": "none",
+      "imageFillMode": "cover",
+      "layout": {
+        "width": 50
+      },
+      "writingMode": "horizontal-tb",
+      "textAlign": null
+    },
+    {
+      "id": "c-1768094224407-thm96ah0z",
+      "type": "timeline",
+      "isVisible": true,
+      "title": "时间轴模块",
+      "timeColor": null,
+      "accentColor": null,
+      "cards": [
+        {
+          "id": "c-1768094224407-mnjhwh3m1",
+          "time": "2026-01-05",
+          "content": "欢迎使用时间轴功能！"
+        }
+      ],
+      "layout": {
+        "width": 50
+      }
+    }
+  ],
+  "stickers": [],
+  "globalComponentStyles": {
+    "bgMode": "solid",
+    "bgColor": "#ffffff",
+    "textColor": "#1a1a1a",
+    "opacity": 1,
+    "bgGradientStart": "#ffffff",
+    "bgGradientEnd": "#f5f5f5",
+    "bgGradientAngle": 135,
+    "radius": 12,
+    "textAlign": "left",
+    "lineHeight": "1.5",
+    "padding": 15,
+    "fontFamily": "",
+    "titleColor": null,
+    "titleFontSize": "1.1em",
+    "contentFontSize": "0.95em",
+    "textStrokeWidth": 0,
+    "textStrokeColor": "#000000"
+  },
+  "exportSettings": {
+    "lockAspectRatio": true,
+    "customWidth": 1200,
+    "customHeight": 750
+  },
+  "workspaceMeta": {
+    "name": "新页面 12",
+    "exportedAt": 1768094230667,
+    "version": "2.6.6"
+  }
+}
