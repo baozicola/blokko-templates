@@ -25,5 +25,14 @@
     "desc": "粉色样式",
     "url": "data/yinghua.json",
     "preview": "previews/yinghua.png"
+  },
+  {
+    "id": "heibaijijian",
+    "name": "樱花",
+    "author": "四十七",
+    "version": "v1.0",
+    "desc": "黑白极简",
+    "url": "data/heibaijijian.json",
+    "preview": "previews/heibaijijian.png"
   }
 ]
