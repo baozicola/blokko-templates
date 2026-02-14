@@ -18,7 +18,12 @@
     "text": "#000000"
   },
   "customIcons": [],
-  "personalInfo": {},
+  "personalInfo": {
+    "nickname": "你的昵称",
+    "subtitle": "这是副标题",
+    "bio": "这是简介",
+    "statusBadge": "none"
+  },
   "pageStyles": {
     "pageBgMode": "solid",
     "pageBgSolidColor": "#008080",
@@ -109,9 +114,9 @@
       "layout": {
         "width": 100
       },
-      "styleVariant": "default",
+      "styleVariant": "win95",
       "bgColor": "#c0c0c0",
-      "nickname": "Admin",
+      "nickname": "你的昵称",
       "subtitle": "Windows 98 User",
       "bio": "C:\\> Hello World_\nC:\\> Blokko is running...",
       "nicknameColor": "#000000",
@@ -216,6 +221,7 @@
     "radius": 0,
     "textAlign": "left",
     "lineHeight": "1.5",
+    "letterSpacing": 0,
     "padding": 4,
     "fontFamily": "Fusion Pixel 12px M latin",
     "titleColor": null,
@@ -231,7 +237,7 @@
   },
   "workspaceMeta": {
     "name": "Template_Win98",
-    "exportedAt": 1768097541948,
-    "version": "2.6.6"
+    "exportedAt": 1771073853991,
+    "version": "2.9.9"
   }
 }
