@@ -26,6 +26,17 @@
     "url": "data/yinghua.json",
     "preview": "previews/yinghua.png"
   },
+
+    {
+    "id": "forst",
+    "name": "森系",
+    "author": "四十七",
+    "version": "v1.0",
+    "desc": "森系样式",
+    "url": "data/forst.json",
+    "preview": "previews/forst.png"
+  },
+  
   {
     "id": "heibaijijian",
     "name": "黑白极简",
