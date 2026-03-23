@@ -1,0 +1,243 @@
+{
+  "version": "2.6.6",
+  "ui": {
+    "activeInspectorTab": "system",
+    "activeLayerTab": "items"
+  },
+  "systemSettings": {
+    "exportFilePrefix": "Blokko",
+    "masonryEnabled": true,
+    "previewGap": 20,
+    "htmlModeEnabled": false,
+    "inspectorOpacity": 1
+  },
+  "globalTheme": {
+    "primary": "#000080",
+    "accent": "#000080",
+    "background": "#008080",
+    "text": "#000000"
+  },
+  "customIcons": [],
+  "personalInfo": {
+    "nickname": "你的昵称",
+    "subtitle": "这是副标题",
+    "bio": "这是简介",
+    "statusBadge": "none"
+  },
+  "pageStyles": {
+    "pageBgMode": "solid",
+    "pageBgSolidColor": "#008080",
+    "pageBgImageDataUrl": null,
+    "pageBgRepeat": "no-repeat",
+    "pageBgSize": "cover",
+    "pageBgImageAttribution": null,
+    "pageBgGradientStart": "#f0f2f5",
+    "pageBgGradientEnd": "#e6e9ed",
+    "pageBgGradientAngle": 135,
+    "pageOverlayColor": "#000000",
+    "pageOverlayOpacity": 0.3,
+    "pageBgPattern": "",
+    "pageBgPatternColor": "#000000",
+    "pageBgPatternOpacity": 0.1,
+    "pageBgPatternDensity": 30,
+    "headerBgMode": "solid",
+    "headerBorderRadius": 16,
+    "headerBgColor": "#c0c0c0",
+    "headerTextColor": "#000000",
+    "headerOpacity": 1,
+    "headerBgGradientStart": "#ffffff",
+    "headerBgGradientEnd": "#f7f7f7",
+    "headerBgGradientAngle": 135,
+    "containerShape": "win95"
+  },
+  "globalBorderSettings": {
+    "style": "none",
+    "width": 0,
+    "color": "#e0e0e0",
+    "shadowOffset": 4,
+    "shadowColor": "#000000",
+    "applyTo": {
+      "profile": false,
+      "card": false,
+      "image": false,
+      "button": false,
+      "music": false,
+      "timeline": false,
+      "showcase": false,
+      "rpg": false,
+      "dialogue": false,
+      "progress": false,
+      "social": false,
+      "grid": false,
+      "todo": false,
+      "calendar": false,
+      "qa": false,
+      "achievement": false,
+      "letter": false,
+      "marquee": false,
+      "ranking": false
+    },
+    "globalShadowSettings": {
+      "color": "#000000",
+      "opacity": 0,
+      "offsetX": 0,
+      "offsetY": 6,
+      "blur": 14,
+      "applyTo": {
+        "profile": true,
+        "card": true,
+        "image": true,
+        "button": true,
+        "music": true,
+        "timeline": true,
+        "showcase": true,
+        "rpg": false,
+        "dialogue": false,
+        "progress": false,
+        "social": true,
+        "grid": false,
+        "todo": false,
+        "calendar": false,
+        "qa": false,
+        "achievement": false,
+        "letter": false,
+        "marquee": false,
+        "ranking": false
+      }
+    }
+  },
+  "items": [
+    {
+      "id": "tpl_win98_profile",
+      "type": "profile",
+      "isVisible": true,
+      "layout": {
+        "width": 100
+      },
+      "styleVariant": "win95",
+      "bgColor": "#c0c0c0",
+      "nickname": "你的昵称",
+      "subtitle": "Windows 98 User",
+      "bio": "C:\\> Hello World_\nC:\\> Blokko is running...",
+      "nicknameColor": "#000000",
+      "avatar": "",
+      "avatarShape": "0px",
+      "avatarBorderSize": 2,
+      "avatarBorderColor": "#808080",
+      "tags": [
+        {
+          "id": "t1",
+          "text": "Start",
+          "icon": "mdi:microsoft-windows"
+        },
+        {
+          "id": "t2",
+          "text": "Shut Down",
+          "icon": "mdi:power"
+        }
+      ],
+      "tagBgColor": "#c0c0c0",
+      "tagTextColor": "#000000",
+      "tagShape": "square",
+      "tagStyle": "outline"
+    },
+    {
+      "id": "c-1768097511913-d4r0hjaqa",
+      "type": "card",
+      "isVisible": true,
+      "title": "这是卡片模块",
+      "content": "双击这里或手机端点击铅笔进行编辑，现在支持富文本了哦！期待大家返图！",
+      "sticker": "none",
+      "imageFillMode": "cover",
+      "layout": {
+        "width": 100
+      },
+      "writingMode": "horizontal-tb",
+      "textAlign": null,
+      "cardStyle": "win95"
+    },
+    {
+      "id": "tpl_win98_todo",
+      "type": "todo",
+      "isVisible": true,
+      "layout": {
+        "width": 50
+      },
+      "title": "My Computer",
+      "styleVariant": "win95",
+      "accentColor": "#000080",
+      "items": [
+        {
+          "text": "Defrag Drive C:",
+          "completed": true
+        },
+        {
+          "text": "Install Drivers",
+          "completed": false
+        },
+        {
+          "text": "Play Solitaire",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "tpl_win98_btn",
+      "type": "button",
+      "isVisible": true,
+      "layout": {
+        "width": 50
+      },
+      "styleVariant": "retro",
+      "text": "Error 404",
+      "subtext": "Click to Ignore",
+      "icon": "mdi:alert-box",
+      "bgColor": "#c0c0c0",
+      "textColor": "#000000"
+    },
+    {
+      "id": "tpl_win98_letter",
+      "type": "letter",
+      "isVisible": true,
+      "layout": {
+        "width": 100
+      },
+      "styleVariant": "email98",
+      "subject": "Welcome to the Internet",
+      "from": "webmaster@example.com",
+      "to": "Guest",
+      "content": "You have got mail!\nDialing up..."
+    }
+  ],
+  "stickers": [],
+  "globalComponentStyles": {
+    "bgMode": "solid",
+    "bgColor": "#c0c0c0",
+    "textColor": "#000000",
+    "opacity": 1,
+    "bgGradientStart": "#ffffff",
+    "bgGradientEnd": "#f5f5f5",
+    "bgGradientAngle": 135,
+    "radius": 0,
+    "textAlign": "left",
+    "lineHeight": "1.5",
+    "letterSpacing": 0,
+    "padding": 4,
+    "fontFamily": "Fusion Pixel 12px M latin",
+    "titleColor": null,
+    "titleFontSize": "1.1em",
+    "contentFontSize": "0.95em",
+    "textStrokeWidth": 0,
+    "textStrokeColor": "#000000"
+  },
+  "exportSettings": {
+    "lockAspectRatio": true,
+    "customWidth": 1200,
+    "customHeight": 750
+  },
+  "workspaceMeta": {
+    "name": "Template_Win98",
+    "exportedAt": 1771073853991,
+    "version": "2.9.9"
+  }
+}

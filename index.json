@@ -1,11 +1,49 @@
 [
   {
     "id": "tpl_001",
-    "name": "我的第一个模板",
+    "name": "默认模板",
     "author": "四十七",
     "version": "v1.0",
-    "desc": "这是Blokko的测试模板，包含基础配色和布局。",
+    "desc": "Blokko 的基础样式。",
     "url": "data/demo.json",
     "preview": "previews/demo.png"
+  },
+  {
+    "id": "win95", 
+    "name": "Win95",
+    "author": "四十七",
+    "version": "v1.0",
+    "desc": "复古Win95模板",
+    "url": "data/win95.json",
+    "preview": "previews/win95.png"
+  },
+  {
+    "id": "karura",
+    "name": "樱花",
+    "author": "四十七",
+    "version": "v1.0",
+    "desc": "粉色样式",
+    "url": "data/yinghua.json",
+    "preview": "previews/yinghua.png"
+  },
+
+    {
+    "id": "forst",
+    "name": "森系",
+    "author": "四十七",
+    "version": "v1.0",
+    "desc": "森系样式",
+    "url": "data/forst.json",
+    "preview": "previews/forst.png"
+  },
+  
+  {
+    "id": "heibaijijian",
+    "name": "黑白极简",
+    "author": "四十七",
+    "version": "v1.0",
+    "desc": "黑白极简",
+    "url": "data/heibaijijian.json",
+    "preview": "previews/heibaijijian.png"
   }
 ]

@@ -1,0 +1,282 @@
+{
+  "version": "2.6.8",
+  "ui": {
+    "activeInspectorTab": "system",
+    "activeLayerTab": "items",
+    "activeGlobalSubTab": "component",
+    "selectedSubTab": "content"
+  },
+  "systemSettings": {
+    "exportFilePrefix": "极简",
+    "masonryEnabled": true,
+    "previewGap": 0,
+    "htmlModeEnabled": false,
+    "inspectorOpacity": 1
+  },
+  "globalTheme": {
+    "primary": "#000000",
+    "accent": "#000000",
+    "background": "#ffffff",
+    "text": "#000000"
+  },
+  "customIcons": [],
+  "personalInfo": {},
+  "pageStyles": {
+    "pageBgMode": "solid",
+    "pageBgSolidColor": "#d8d8d8",
+    "pageBgImageDataUrl": null,
+    "pageBgRepeat": "no-repeat",
+    "pageBgSize": "cover",
+    "pageBgImageAttribution": null,
+    "pageBgGradientStart": "#f0f2f5",
+    "pageBgGradientEnd": "#e6e9ed",
+    "pageBgGradientAngle": 135,
+    "pageOverlayColor": "#000000",
+    "pageOverlayOpacity": 0.3,
+    "pageBgPattern": "",
+    "pageBgPatternColor": "#000000",
+    "pageBgPatternOpacity": 0.1,
+    "pageBgPatternDensity": 30,
+    "headerBgMode": "solid",
+    "headerBorderRadius": 0,
+    "headerBgColor": "#ffffff",
+    "headerTextColor": "#000000",
+    "headerOpacity": 1,
+    "headerBgGradientStart": "#ffffff",
+    "headerBgGradientEnd": "#f7f7f7",
+    "headerBgGradientAngle": 135,
+    "containerShape": "torn"
+  },
+  "globalBorderSettings": {
+    "style": "solid",
+    "width": 1,
+    "color": "#000000",
+    "shadowOffset": 0,
+    "shadowColor": "#000000",
+    "applyTo": {
+      "profile": true,
+      "card": true,
+      "image": true,
+      "button": false,
+      "music": false,
+      "timeline": false,
+      "showcase": false,
+      "rpg": false,
+      "dialogue": false,
+      "progress": false,
+      "social": false,
+      "grid": false,
+      "todo": false,
+      "calendar": false,
+      "qa": false,
+      "achievement": false,
+      "letter": false,
+      "marquee": false,
+      "ranking": false,
+      "checklist": false
+    },
+    "globalShadowSettings": {
+      "color": "#000000",
+      "opacity": 0,
+      "offsetX": 0,
+      "offsetY": 0,
+      "blur": 0,
+      "applyTo": {
+        "profile": true,
+        "card": true,
+        "image": true,
+        "button": true,
+        "music": true,
+        "timeline": true,
+        "showcase": true,
+        "rpg": false,
+        "dialogue": false,
+        "progress": false,
+        "social": true,
+        "grid": false,
+        "todo": false,
+        "calendar": false,
+        "qa": false,
+        "achievement": false,
+        "letter": false,
+        "marquee": false,
+        "ranking": false
+      }
+    }
+  },
+  "items": [
+    {
+      "id": "tpl_mono_profile",
+      "type": "profile",
+      "isVisible": true,
+      "layout": {
+        "width": 50
+      },
+      "styleVariant": "id-card-v",
+      "nickname": "NAME",
+      "subtitle": "TITLE / ROLE",
+      "bio": "占位文本",
+      "nicknameColor": "#000000",
+      "subtitleColor": "#666666",
+      "avatar": "",
+      "avatarShape": "0px",
+      "avatarBorderSize": 2,
+      "avatarBorderColor": "#000000",
+      "secondaryBgColor": "#ffffff",
+      "tags": [
+        {
+          "id": "t1",
+          "text": "占位"
+        },
+        {
+          "id": "t2",
+          "text": "占位"
+        }
+      ],
+      "tagBgColor": "#000000",
+      "tagTextColor": "#ffffff",
+      "tagShape": "square",
+      "customId": "Lite",
+      "showBarcode": true
+    },
+    {
+      "id": "tpl_mono_checklist",
+      "type": "checklist",
+      "isVisible": true,
+      "layout": {
+        "width": 50
+      },
+      "title": "属性",
+      "styleVariant": "bingo",
+      "columns": 3,
+      "items": [
+        {
+          "text": "占位",
+          "state": "checked"
+        },
+        {
+          "text": "占位",
+          "state": "none"
+        },
+        {
+          "text": "占位",
+          "state": "none"
+        },
+        {
+          "text": "占位",
+          "state": "none"
+        },
+        {
+          "text": "占位",
+          "state": "checked"
+        },
+        {
+          "text": "占位",
+          "state": "none"
+        }
+      ],
+      "accentColor": "#000000",
+      "textColor": "#000000",
+      "bgColor": "#ffffff",
+      "itemRadius": 0,
+      "itemBgColor": "#ffffff"
+    },
+    {
+      "id": "tpl_mono_timeline",
+      "type": "timeline",
+      "isVisible": true,
+      "layout": {
+        "width": 50
+      },
+      "title": "HISTORY",
+      "style": "default",
+      "timeColor": "#000000",
+      "accentColor": "#000000",
+      "textColor": "#000000",
+      "cards": [
+        {
+          "id": "c1",
+          "time": "2024",
+          "content": "事件记录占位 A"
+        },
+        {
+          "id": "c2",
+          "time": "2025",
+          "content": "事件记录占位 B"
+        },
+        {
+          "id": "c3",
+          "time": "NOW",
+          "content": "当前状态占位"
+        }
+      ]
+    },
+    {
+      "id": "tpl_mono_card",
+      "type": "card",
+      "isVisible": true,
+      "layout": {
+        "width": "50",
+        "offsetY": -30,
+        "offsetX": -80
+      },
+      "title": "NOTE",
+      "content": "<p>这里是纯文本区域。</p>",
+      "cardStyle": "default",
+      "textAlign": "left",
+      "bgColor": "#ffffff",
+      "textColor": "#000000",
+      "sticker": "tape",
+      "opacity": null
+    },
+    {
+      "id": "c-1768292124450-echkaw88k",
+      "type": "card",
+      "isVisible": true,
+      "layout": {
+        "width": "50",
+        "offsetY": 40,
+        "offsetX": 15,
+        "zIndex": 1
+      },
+      "title": "因为使用了自由布局，打字后可能需要自己微调一下",
+      "content": "",
+      "cardStyle": "default",
+      "textAlign": "left",
+      "bgColor": "#ffffff",
+      "textColor": "#000000",
+      "sticker": "tape",
+      "opacity": null
+    }
+  ],
+  "stickers": [],
+  "globalComponentStyles": {
+    "bgMode": "solid",
+    "bgColor": "#ffffff",
+    "textColor": "#000000",
+    "opacity": 1,
+    "bgGradientStart": "#ffffff",
+    "bgGradientEnd": "#f5f5f5",
+    "bgGradientAngle": 135,
+    "radius": 0,
+    "textAlign": "left",
+    "lineHeight": "1.4",
+    "padding": 20,
+    "fontFamily": "LXGW WenKai",
+    "titleColor": "#000000",
+    "titleFontSize": "1em",
+    "contentFontSize": "1em",
+    "textStrokeWidth": 0,
+    "textStrokeColor": "#000000"
+  },
+  "exportSettings": {
+    "lockAspectRatio": true,
+    "customWidth": 1200,
+    "customHeight": 800
+  },
+  "workspaceMeta": {
+    "name": "Template_Mono",
+    "exportedAt": 1768292524056,
+    "version": "2.6.8"
+  }
+}
